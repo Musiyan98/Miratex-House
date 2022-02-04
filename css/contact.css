@@ -1,0 +1,493 @@
+@font-face {
+    font-family:'SF Pro Display';
+    font-style: normal;
+    src: url("/newProject/MiratexHouse/fontSFPro/SF-Pro-Display-Black.otf") format("otf");
+}
+
+
+ body {
+    background: #161616;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff ;
+ }
+ header {
+    position: relative;
+    height: 56px;
+    left: 50px;
+    right: 50px;
+    top: 0px;
+
+}
+.company-icon1 {
+    position: relative;
+    top: 10px;
+    right: 2px;
+}
+
+
+#company-name-nav {
+    border-style: inset;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-width: 1px;
+    border-color: #000;
+    height: 32px;
+    padding-left: 12px;
+    margin: 10px 100px 12px 10px;
+}
+
+header * {
+    float: left;
+    padding: 0px;
+    
+    
+}
+header li {
+    list-style-type: none;
+    padding: 0;
+}
+#catalog,
+#contact,
+#money {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    text-decoration: none;}
+
+
+#catalog {
+    margin: 20px 0;
+}
+
+#contact {
+    margin: 20px 140px 20px 20px;
+}
+ 
+#money {
+    margin: 20px 200px 20px 0;
+}
+
+#language li {
+margin: 4px 7px 20px 0;
+color: #CACACA;
+}
+
+#share-icon {
+    margin: 14px 0 20px 70px;
+}
+
+#share {
+    margin: 20px 40px 20px 10px;}
+
+#login-icon {
+    margin: 15px 0;
+}
+
+#login {
+    margin: 20px 0 20px 10px;
+}
+
+#main-block {
+    display: flex;
+    }
+
+    aside {
+        margin: 0 0 0 50px;
+        padding-left: -2px;
+    }
+    aside hr {
+        margin: 15px 0;
+    }
+
+#main-box {
+    margin-left: 166px;
+    margin-top: ;}
+
+#head  h1 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57px;
+    text-transform: uppercase;
+    width: 400px;
+    height: 114px;}
+
+    #head {
+    margin-top: 100px;
+    margin-bottom: 70px ;
+    }
+    .oll-contact-div {
+        display: flex;
+        flex-direction:row;
+    }
+    
+    #contact-item2 {
+        margin-right: 60px;
+        margin-left:420px ; 
+    }
+    
+
+    .contact-item hr {
+        width: 32px;
+        margin-left: 0px;
+        margin-top: 35px;
+    }
+    .contact-item h5 {
+        margin-bottom: 40px;
+        margin-top: -15px;
+        padding-left: 50px; 
+    }
+    .contact-subitem,
+    .contact-subitem a {
+        margin-bottom: 20px;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    #map {
+        margin-top: 20px;
+        margin-bottom: 150px;
+    }
+
+    #form-flex {
+        display: flex;
+    }
+
+    #under-map-text {
+        margin-top: 0;
+        padding-top: 0;
+    }
+    #under-map-text h2 {
+        margin-top: 0;
+        padding-top: 0;
+        width: 600px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 57px;
+        text-transform: uppercase;
+
+    }
+    #under-map-text1 {
+        margin: 40px 0;
+    }
+    .under-map-text {
+        font-family: 'SF Pro Display';
+        width: 400px; 
+        margin: 40px 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        
+    }
+
+     #form-flex form {
+        /* width: 400px; */
+        height: 435px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+     }
+    
+        .name,
+        .contact {
+        background: #161616;
+        text-decoration: #FFFFFF;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+        margin-right: 30px;
+        padding-left: 0;
+        margin-left: 0;
+        border-top-style: none;
+        border-right-style: none;
+        border-left-style: none;
+     }
+     .name  {
+        width: 185px;
+        height: 35px;
+        text-decoration: #FFFFFF;
+        color: #FFFFFF;
+     }
+     .contact {
+        width: 400px;
+        height: 35px;
+     }
+     #message {
+        height: 70px;
+        margin-bottom: 15px;
+     }
+
+     form ::placeholder {
+        text-decoration: #FFFFFF;
+        color: #FFFFFF;
+     }
+
+     #submit {
+        background: #161616;
+        text-decoration: #FFFFFF;
+        color: #FFFFFF;
+
+        width: 400px;
+        height: 60px;
+        margin-top: 40px;
+        margin-bottom: 150px;
+        border-style: solid ;
+        border-top-style: 3px;
+        border-right-style: 3px;
+        border-bottom-style: 3px;
+        border-left-style: 3px;
+     }
+     #form-flex p  {
+        width: 375px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    #form-flex span {
+        color: rgb(31, 125, 187);
+    }
+
+
+
+
+#footer {
+    /* margin-top: 200px; */
+}
+footer hr {
+    margin-top: 10px;
+}
+
+#footer-underline {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 107px;
+}
+#footer-underline-text {
+    margin-right: 250px;
+    
+}
+
+.footer-underline-text {
+    margin-right: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    font-variant: small-caps;
+    color: #FFFFFF;
+}
+
+
+                                            /* succes */
+
+    .succes h1 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 57px;
+        text-transform: uppercase;
+        color: #FFFFFF;}
+
+    .succes p  {
+        width: 371.72px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;}
+
+
+
+
+                                                 /* makeMoneyWithUs */
+
+
+
+    #make-money-h1 {
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 57px;
+        text-transform: uppercase;
+        margin-top: 100px;
+        margin-bottom: 40px;
+        width: 665px;
+    }
+
+    #make-money-p {
+        width: 400px;
+                
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        /* text-transform: uppercase; */
+        color: #FFFFFF;
+    }
+    .make-money-right-text {
+        border-style: outset;
+        border-top: none;  
+        border-right: none;    
+        border-bottom: none;    
+        border-left-color: #fff;    
+        border-left-width: 1px;
+        margin-left: 130px;
+        padding-left: 70px;
+        margin-top: 70px ;
+    }
+/* 
+    #make-money-main-block h5  {
+        width: 400px;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 40px;
+    } */
+
+    .make-money-right-text h5 {
+        width: 400px;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 40px;
+    }
+
+    .make-money-right-text p {
+        width: 400px;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 70px;
+    }
+    .make-money-right-text {margin-bottom: 150px;}
+
+    .make-money-left-text h2 {
+
+        font-family: SF Pro Display;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 57px;
+        margin-bottom: 40px;
+        }
+
+    .make-money-left-text-h5 {   
+        width: 380px;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 40px;
+        }
+        
+    .make-money-left-text p {
+        width: 399.72px;
+                
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        }
+
+    .make-money-main-block h2 {
+        width: 600px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 57px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    .step-number {
+        width: 60px;
+        height: 60px; 
+        border-style: outset;
+        border-color: #fff;  
+        border-width: 1px;
+        text-align: center;
+                
+        float: left;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        margin-right: 40px;
+        
+    }
+
+    .step-number span {
+        padding: 23px 10px ;
+        display: table-cell;
+    vertical-align: middle;
+    }
+        
+
+      
+
+    .four-step {
+        display: flex;
+        margin-bottom: 40px;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    .four-step-under-text {
+        width: 400px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+
+    .make-money-button { 
+        background: #161616;
+        text-decoration: #FFFFFF;
+        color: #FFFFFF;
+        width: 400px;
+        height: 60px;
+        margin-top: 40px;
+        border-style: solid ;
+        border-top-style: 3px;
+        border-right-style: 3px;
+        border-bottom-style: 3px;
+        border-left-style: 3px;}
+
+
+        .make-money-down-text {
+            margin-top: 150px;
+        }
+
+        .make-money-down-text p {
+            width: 400px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+        }
